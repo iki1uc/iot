@@ -1,20 +1,11 @@
-i.o.t.raw = raw File = nur A(D)=D_raw, H(D)=compress, T(D_stable→POOL), lim D_noise→0 = Funktion raw Mathematik Physik Geo modular = nichts verraten
+# IOT
 
-neu.js → umbenennen zu ID_IOT_81E.js
+Funktion raw: A(D)=D_raw
+Mathematik: lim D_noise→0
+Physik: Bereich-Absorber
+Geo: HDF = compress(D_raw)
+Modular: M ∈ { PRE, POOL, DR, NET, NC-Hub-All, AXO }
 
-Inhalt ID_IOT_81E.js:
+Sonderfunktion: Wenn alle Funktionen laufen, kann über mehr nachgedacht werden.
 
-const ID_IOT_81E = {
-    id: "IOT-81E",
-    name: "IOT – Input Output Tiefe",
-    symbol: "🌀",
-    ascii: "@))>~~",
-    math: {
-        absorber: "A(D) = D_raw",
-        hdf: "H(D) = compress(D_raw)",
-        transfer: "T(D_stable → POOL)",
-        stability: "lim D_noise → 0"
-    },
-    level: 81,
-    sonder() { return "I O T = 3 Zeichen zur Bereinigung" }
-};
+Symbol: 🌀 @))>~~
