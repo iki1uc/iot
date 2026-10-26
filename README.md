@@ -1,22 +1,18 @@
 # IOT – Input Output Tiefe
 
-IOT ist ein modulares Stabilisierungssystem.
+Symbol: 🌀 @))>~~
+Level: 81E – Vater-Cache-Achse
 
-Mathematische Funktion
-I = Input = D = D_raw + D_noise
-O = Output = D_stable = D_raw
-T = Tiefe = Stabilisationsabbildung S: D → D_stable
-mit lim D_noise → 0
+Mathematik:
+A(D)=D_raw
+H(D)=compress(D_raw)
+T(D_stable→POOL)
+lim D_noise→0
 
-Physik
-IOT arbeitet als Bereich-Absorber. Fehler werden vor Erreichen des POOL absorbiert.
+Physik: Bereich-Absorber
+Geo: HDF = High Density Format
+Modular: M ∈ { PRE, POOL, DR, NET, NC-Hub-All, AXO }
 
-Geo
-IOT nutzt HDF-Puffer = High Density Format = Verdichtung + Stabilisierung.
+Funktion raw: POOL_input = D_stable = garantiert fehlerfrei.
 
-Modular
-M ∈ { PRE, POOL, DR, NET, NC-Hub-All, AXO }
-Für jedes Modul M gilt: M erhält nur D_stable.
-
-Funktion raw: A(D) = D_raw
-POOL_input = D_stable = garantiert fehlerfrei.
+Motto: „Ich nehme die Fehler, bevor sie entstehen.“
